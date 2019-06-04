@@ -1,17 +1,10 @@
 * {
   box-sizing: border-box; 
   text-align: center;
-  line-height: 50%;
 }
 
 body {
   width: 480px;
   height: 1030px;
-  border: 1px solid black;
-  /* overflow: hidden; */
   margin: 0 auto;
-}
-
-body *{
-  border: 1px solid black;
 }
