@@ -1,3 +1,4 @@
+/* MOBILE VIEW */
 header {
   background-color: red;
 }
@@ -34,6 +35,46 @@ aside {
   background-color: yellow;
 }
 
+/* TABLET VIEW */
+@media(min-width: 600px){  
+  header {
+    background-color: #FFECA1;
+  }
+  
+  aside {
+    background-color: #E8CE92;
+  }
+  
+  #c {
+    background-color: #FFDEAD;
+  }
+  
+  #d{
+    background-color: #E8BA92;
+  }
+  
+  #e {
+    background-color: #FFBEA1;
+  }
+  
+  #f {
+    background-color: #FFA599;
+  }
+  
+  #g {
+    background-color: #E88BE3;
+  }
+  
+  #h {
+    background-color: #C0A6FF;
+  }
+  
+  #i {
+    background-color: #5291EB;
+  }
+}
+
+/* DESKTOP VIEW */
 @media(min-width: 768px){
   header {
     background-color: pink;
